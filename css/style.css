@@ -248,22 +248,13 @@ a:hover, .active{
 
 #menu-list {
     background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("../gallery-images/restaurant-facade.jpg") cover fixed no-repeat;
-/*>>>>>>> e48e11d37c22f475a0b5a8f94174afa0cee1e83c*/
 }
-
-
-
-/* html, body{
-    overflow-x: hidden;
-} */
-
-
 .container-fluid{
     margin-left: 0;
     margin-right: 0;
 }
 #row1{
-    position: fixed;
+    
     background-image: url("../images/pics/backgne.jpg");
     background-size: cover;
     background-repeat: no-repeat;    
