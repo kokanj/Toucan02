@@ -7,11 +7,10 @@ let text=document.getElementById('home-text');
 
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
-    chicken.style.left = (value * 1.2) + 'px';
-    text.style.top = (value * .8) + 'px';
-    paper.style.left = (value * 1.2) + 'px';
-    paper.style.top = (value * -.4) + 'px';
-
+    chicken.style.left = (value * 1.2) + 'px';    
+    text.style.top = (100+value * .8) + 'px';
+    paper.style.left = (value * 1.6) + 'px';
+    paper.style.top = (value * -.2) + 'px';
     salad.style.left = (value * -.8) + 'px';
     onion.style.left = (value * -.5) + 'px';    
 })
@@ -38,4 +37,12 @@ mybutton.addEventListener("click", backToTop);
 function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+// Menu section
+
+var menuContent=document.getElementById("menu-content")
+function mouseIn(){
+  menuContent.style.background= "rgba(0, 0, 0, 0.5)";
+ 
 }
